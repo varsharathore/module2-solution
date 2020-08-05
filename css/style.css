@@ -1,1 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#noodle{
+    background-color: rgb(208, 191, 224);
+    width: 30%;
+    display: inline-block;
+    border: solid 1px blueviolet;
+    margin: 1%;
+    padding: 0.7%;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+}
+#noodle>h3{
+    text-align: right;
+    margin-top: 0;
+    border: solid 1px black;
+    display: inline-block;
+    float: right;
+    clear: both;
+    padding: 1%;
+    background-color: rgb(187, 20, 220);
+    color: white;
+    
+    
+}
+#pasta{
+    background-color: rgb(203, 228, 179);
+    width: 30%;
+    display: inline-block;
+    border: solid 1px rgb(41, 121, 77);
+    margin: 1%;
+    padding: 0.7%;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    
+}
+#pasta>h3{
+    text-align: right;
+    margin-top: 0;
+    border: solid 1px black;
+    display: inline-block;
+    float: right;
+    clear: both;
+    padding: 1%;
+    background-color: rgb(19, 83, 13);
+    color: white;
+    
+}
+#pizza{
+    background-color: rgb(253, 210, 194);
+    width: 30%;
+    display: inline-block;
+    border: solid 1px coral;
+    margin: 1%;
+    padding: 0.7%;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+}
+#pizza>h3{
+    text-align: right;
+    margin-top: 0;
+    border: solid 1px black;
+    display: inline-block;
+    float: right;
+    clear: both;
+    padding: 1%;
+    background-color: crimson;
+    color: white;
+}
 
+@media (min-width:768px) and (max-width:991px){
+    #noodle{
+        width: 45%;
+    }
+    #pasta{
+        width: 45%;
+    }
+    #pizza{
+        width: 100%;
+    }
+
+}
+@media (max-width:767px){
+    #noodle{
+        width: 100%;
+    }
+    #pasta{
+        width: 100%;
+    }
+    #pizza{
+        width: 100%;    
+    }
+}
